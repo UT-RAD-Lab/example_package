@@ -1,0 +1,3 @@
+<launch>
+  <node name='talker' type='talker.py' pkg='test' output="screen"/>
+</launch>

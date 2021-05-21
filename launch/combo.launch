@@ -1,0 +1,4 @@
+<launch>
+  <arg name="name"  default=""/>
+  <node ns="$(arg name)" name='combo' type='combo.py' pkg='test' output="screen"/>
+</launch>
